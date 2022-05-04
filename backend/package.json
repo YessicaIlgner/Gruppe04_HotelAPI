@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -L src/index.js",
+    "d-up": "docker-compose up --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.3.2",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
